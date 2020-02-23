@@ -1,0 +1,4 @@
+20 tiles
+2 card stacks
+n players
+

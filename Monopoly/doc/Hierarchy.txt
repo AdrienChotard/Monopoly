@@ -1,0 +1,38 @@
+main:
+	Game:
+		Board:
+			Groups:
+				Name:
+				Color:
+			Tiles:
+			Card decks:
+
+		Players :
+			Name:
+			Money:
+			(Token:)
+			Token location:
+
+Tile types:
+	Name:
+
+	OwnableTypes
+	Property:
+		Cost:
+		GroupID:
+		Rents: [No house, 1h, 2h, 3h, 4h, 1H]
+		HouseLevel:[-1, 5] (-1 : Mortgaged)
+		Owner : 
+
+	Station:
+		Name:
+		Cost:
+		Rents: [1S, 2S, 3S, 4S] (Extensible for custom games)
+		Owner:
+
+	Companies:
+		Name:
+		Cost:
+		RentsMultipliers: [1C, 2C] (Extensible for custom games)
+		Owner:
+
